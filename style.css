@@ -1,17 +1,17 @@
 :root {
-    --primary-color: #e080a0;
-    --background-color: #fff5f8;
-    --text-color: #3a3a3a;
-    --accent-color: #e7b4c9;
-    --card-bg: #ffffff;
-    --link-hover: #d96f96;
-    --shadow-color: rgba(0, 0, 0, 0.08);
+    --primary-color: #8B5E3C;       /* marrom médio */
+    --background-color: #f9f4ef;   /* bege claro */
+    --text-color: #3c2f2f;         /* marrom escuro */
+    --accent-color: #A9744F;       /* terracota */
+    --card-bg: #fffaf5;            /* quase branco */
+    --link-hover: #a0522d;         /* marrom avermelhado */
+    --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Georgia', serif;
     background-color: var(--background-color);
     color: var(--text-color);
     text-align: center;
@@ -114,22 +114,16 @@ ul {
 
 iframe {
     width: 100%;
-    max-width: 560px;
-    height: 315px;
     border: none;
-    margin-top: 20px;
     border-radius: 12px;
+    margin-top: 20px;
     box-shadow: 0 4px 20px var(--shadow-color);
 }
 
 footer {
     margin-top: 40px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ddd;
     padding-top: 20px;
-    color: #888;
-}
-
-footer p {
+    color: #555;
     font-size: 0.9em;
-    margin-top: 10px;
 }
