@@ -1,24 +1,12 @@
 :root {
-    --primary-color: #78c8e0;
-    --background-color: #f0fff7;
-    --text-color: #2d2d2d;
-    --accent-color: #eca6bd;
+    --primary-color: #e080a0;
+    --background-color: #fff5f8;
+    --text-color: #3a3a3a;
+    --accent-color: #e7b4c9;
     --card-bg: #ffffff;
-    --link-hover: #b4e4d5;
-    --shadow-color: rgba(0, 0, 0, 0.158);
+    --link-hover: #d96f96;
+    --shadow-color: rgba(0, 0, 0, 0.08);
 }
-
-:root {
-    --primary-color: #2abf91;
-    --background-color: #f0fff7;
-    --text-color: #2d2d2d;
-    --accent-color: #1d8665;
-    --card-bg: #ffffff;
-    --link-hover: #24a67d;
-    --shadow-color: rgba(0, 0, 0, 0.1);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
 
 body {
     margin: 0;
@@ -77,16 +65,16 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--accent-color);
+    color: var(--primary-color);
     padding: 8px 16px;
     border-radius: 20px;
     background-color: var(--card-bg);
-    border: 2px solid var(--accent-color);
+    border: 2px solid var(--primary-color);
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -136,7 +124,7 @@ iframe {
 
 footer {
     margin-top: 40px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #eee;
     padding-top: 20px;
     color: #888;
 }
@@ -145,16 +133,3 @@ footer p {
     font-size: 0.9em;
     margin-top: 10px;
 }
-
-/* Variáveis */
-:root {
-    --primary-color: #026773;
-    --secondary-color: #3CA6A6;
-    --text-color: #024959;
-    --background-color: #F2E3D5;
-    --button-hover: #012E40;
-    --font-body: "Chocolate Classical Sans", serif;
-    --font-titulo: "Rakkas", serif;
-}
-
-/* código omitido */
