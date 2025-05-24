@@ -1,4 +1,14 @@
 :root {
+    --primary-color: #78c8e0;
+    --background-color: #f0fff7;
+    --text-color: #2d2d2d;
+    --accent-color: #eca6bd;
+    --card-bg: #ffffff;
+    --link-hover: #b4e4d5;
+    --shadow-color: rgba(0, 0, 0, 0.158);
+}
+
+:root {
     --primary-color: #2abf91;
     --background-color: #f0fff7;
     --text-color: #2d2d2d;
@@ -145,36 +155,6 @@ footer p {
     --button-hover: #012E40;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
-}
-
-/* código omitido */
-/* código omitido */
-
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-body);
-}
-
-/* Corpo da página */
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    line-height: 1.6;
-}
-
-h3 {
-    margin-top: 25px;
-}
-
-p {
-    margin-top: 20px;
-}
-
-img {
-    max-width: 90%;
 }
 
 /* código omitido */
