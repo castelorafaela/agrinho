@@ -16,23 +16,6 @@ body {
     color: var(--text-color);
     text-align: center;
     line-height: 1.6;
-body {
-    background: 
-        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
-        url('body {
-    background: 
-        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
-        url('https://images.unsplash.com/photo-1504198266285-1659872e6590?auto=format&fit=crop&w=1400&q=80');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: var(--text-color);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: var(--text-color);
 }
 
 header, main, footer {
