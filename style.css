@@ -1,4 +1,140 @@
+:root {
+    --primary-color: #2abf91;
+    --background-color: #f0fff7;
+    --text-color: #2d2d2d;
+    --accent-color: #1d8665;
+    --card-bg: #ffffff;
+    --link-hover: #24a67d;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    line-height: 1.6;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px var(--shadow-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 2.5em;
+}
+
+h2 {
+    color: var(--accent-color);
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+h3 {
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+p, li {
+    font-size: 1.1em;
+    color: var(--text-color);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--accent-color);
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: var(--card-bg);
+    border: 2px solid var(--accent-color);
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.conteudo {
+    background-color: var(--card-bg);
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px var(--shadow-color);
+    text-align: left;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cta-button, .cta-footer {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.cta-button:hover, .cta-footer:hover {
+    background-color: var(--link-hover);
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--shadow-color);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    color: #888;
+}
+
+footer p {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
 
 /* Variáveis */
 :root {
